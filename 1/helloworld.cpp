@@ -12,7 +12,14 @@ int main()
     std::cout <<"Hello World" <<std::endl;
     //intresting it adds lines together, not on seprate lines.
     //you can fix this by going << std::endl; this means standered end line.
-    std::cout<<"This is a test";
+    //good to always do that.
+    std::cout<<"This is a test" <<std::endl;
+
+
+    //but if i want to lets say have better performance i can do << '\n'; like python
+
+    std::cout <<"of my first program" << '\n';
+    
 
     return 0;//this is helpful becase if it returns a 1 if there was a problem, but if it returns 0 that means there was no problem
 }
