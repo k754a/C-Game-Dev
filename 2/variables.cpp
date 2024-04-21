@@ -46,7 +46,7 @@ int main()
     std::cout <<badchar <<std::endl;
     std::cout <<symbol <<std::endl;
     
-    //bools stores true and false only, if its not a bool, it will print a 1
+    //bools stores true and false only, if its not a bool, it will defalt true.
     bool day = true;
     bool night = 'f';
 
